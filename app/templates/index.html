@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>House Price Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="longitude">Longitude:</label>
+        <input type="number" step="any" id="longitude" name="longitude" required><br><br>
+        <label for="latitude">Latitude:</label>
+        <input type="number" step="any" id="latitude" name="latitude" required><br><br>
+        <label for="housing_median_age">Housing Median Age:</label>
+        <input type="number" step="any" id="housing_median_age" name="housing_median_age" required><br><br>
+        <label for="total_rooms">Total Rooms:</label>
+        <input type="number" step="any" id="total_rooms" name="total_rooms" required><br><br>
+        <label for="total_bedrooms">Total Bedrooms:</label>
+        <input type="number" step="any" id="total_bedrooms" name="total_bedrooms" required><br><br>
+        <label for="population">Population:</label>
+        <input type="number" step="any" id="population" name="population" required><br><br>
+        <label for="households">Households:</label>
+        <input type="number" step="any" id="households" name="households" required><br><br>
+        <label for="median_income">Median Income:</label>
+        <input type="number" step="any" id="median_income" name="median_income" required><br><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 120px;
+    background-image: linear-gradient(rgb(229, 174, 246), rgb(117, 59, 150)); 
+}
+
+h1 {
+    color: #333;
+    margin: 100px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+}
+
+button {
+    background-color: #4f277a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #5ea0a1;
+}
