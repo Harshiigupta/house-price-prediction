@@ -32,10 +32,11 @@ A Flask web application that predicts house prices based on input features using
    ```
 
 ### Form Submission Example
-![Form Submission]("C:\Users\harsh\Pictures\Screenshots\Screenshot 2025-01-09 183017.png")
+![Form Submission](
+https://github.com/Harshiigupta/house-price-prediction/blob/main/Screenshot%202025-01-09%20183017.png)
 
 ### Predicted Price Response
-![Response Example]("C:\Users\harsh\Pictures\Screenshots\Screenshot 2025-01-09 183038.png")
+![Response Example](https://github.com/Harshiigupta/house-price-prediction/blob/main/Screenshot%202025-01-09%20183038.png)
 
 ## Features
 - User-friendly form for inputting house features.
