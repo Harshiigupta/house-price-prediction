@@ -31,6 +31,12 @@ A Flask web application that predicts house prices based on input features using
    http://127.0.0.1:5000/
    ```
 
+### Form Submission Example
+![Form Submission]("C:\Users\harsh\Pictures\Screenshots\Screenshot 2025-01-09 183017.png")
+
+### Predicted Price Response
+![Response Example]("C:\Users\harsh\Pictures\Screenshots\Screenshot 2025-01-09 183038.png")
+
 ## Features
 - User-friendly form for inputting house features.
 - Predicts house prices using a simple linear regression model.
